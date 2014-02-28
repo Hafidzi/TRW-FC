@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FAC0D044-EB13-4E86-8343-4D165707A92E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TRW FC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D7632E8F-23CF-4349-B4B4-076FD6C66ACD</key>
+		<string>https://github.com/Hafidzi/TRW-FC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TRW FC.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D7632E8F-23CF-4349-B4B4-076FD6C66ACD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Hafidzi/TRW-FC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D7632E8F-23CF-4349-B4B4-076FD6C66ACD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D7632E8F-23CF-4349-B4B4-076FD6C66ACD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TRW-FC</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		173BF60918C0474000DE02D7 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 173BF60818C0474000DE02D7 /* ECSlidingViewController.m */; };
+		173BF60B18C04A8000DE02D7 /* soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = 173BF60A18C04A8000DE02D7 /* soccer.png */; };
+		173BF60D18C04C2400DE02D7 /* whistle.png in Resources */ = {isa = PBXBuildFile; fileRef = 173BF60C18C04C2400DE02D7 /* whistle.png */; };
+		174A3BBB17030BD100D6CB5B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174A3BBA17030BD100D6CB5B /* Social.framework */; };
+		1796826C16FB4F5B000595E0 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 1796826B16FB4F5B000595E0 /* twitter.png */; };
+		1796826E16FB4F6B000595E0 /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1796826D16FB4F6B000595E0 /* trophy.png */; };
+		1796827016FB4F76000595E0 /* ticket.png in Resources */ = {isa = PBXBuildFile; fileRef = 1796826F16FB4F76000595E0 /* ticket.png */; };
+		179CE43416F8A051005F8ED3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179CE43316F8A051005F8ED3 /* UIKit.framework */; };
+		179CE43616F8A051005F8ED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179CE43516F8A051005F8ED3 /* Foundation.framework */; };
+		179CE43816F8A051005F8ED3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179CE43716F8A051005F8ED3 /* CoreGraphics.framework */; };
+		179CE43E16F8A051005F8ED3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 179CE43C16F8A051005F8ED3 /* InfoPlist.strings */; };
+		179CE44016F8A051005F8ED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE43F16F8A051005F8ED3 /* main.m */; };
+		179CE44416F8A051005F8ED3 /* TRWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 179CE44316F8A051005F8ED3 /* TRWAppDelegate.m */; };
+		179CE44D16F8A051005F8ED3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179CE44B16F8A051005F8ED3 /* MainStoryboard.storyboard */; };
+		179CE46216F8A21E005F8ED3 /* trwfc_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 179CE46116F8A21E005F8ED3 /* trwfc_57.png */; };
+		179CE46416F8A224005F8ED3 /* trwfc_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 179CE46316F8A224005F8ED3 /* trwfc_114.png */; };
+		17EE34FC1700ADA1001F37A9 /* TRWTablesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EE34FB1700ADA1001F37A9 /* TRWTablesViewController.m */; };
+		17EE34FF1700AE0D001F37A9 /* TRWPlayerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EE34FE1700AE0D001F37A9 /* TRWPlayerTableViewController.m */; };
+		17EE35021700AE3D001F37A9 /* TRWSocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EE35011700AE3D001F37A9 /* TRWSocialViewController.m */; };
+		17EE35051700AE59001F37A9 /* TRWAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EE35041700AE59001F37A9 /* TRWAboutViewController.m */; };
+		17EE35071700AFE0001F37A9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EE35061700AFE0001F37A9 /* Twitter.framework */; };
+		17EE35091700AFFC001F37A9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EE35081700AFFC001F37A9 /* Accounts.framework */; };
+		17FACE5D1726CFCD000A85F7 /* menuButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FACE5C1726CFCD000A85F7 /* menuButton@2x.png */; };
+		17FBA03F1722DF20003A2FBC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1796827716FB53E0000595E0 /* Default.png */; };
+		17FBA0431722DF81003A2FBC /* TRWNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FBA0421722DF81003A2FBC /* TRWNewsViewController.m */; };
+		17FBA0441722E0BF003A2FBC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1796827916FB53EB000595E0 /* Default@2x.png */; };
+		17FBA0461722E0CA003A2FBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FBA0451722E0CA003A2FBC /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		173BF60718C0473600DE02D7 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		173BF60818C0474000DE02D7 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		173BF60A18C04A8000DE02D7 /* soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccer.png; sourceTree = "<group>"; };
+		173BF60C18C04C2400DE02D7 /* whistle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whistle.png; sourceTree = "<group>"; };
+		174A3BBA17030BD100D6CB5B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1796826B16FB4F5B000595E0 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		1796826D16FB4F6B000595E0 /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
+		1796826F16FB4F76000595E0 /* ticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ticket.png; sourceTree = "<group>"; };
+		1796827716FB53E0000595E0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1796827916FB53EB000595E0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		179CE43016F8A051005F8ED3 /* TRW FC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TRW FC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		179CE43316F8A051005F8ED3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		179CE43516F8A051005F8ED3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		179CE43716F8A051005F8ED3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		179CE43B16F8A051005F8ED3 /* TRW FC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRW FC-Info.plist"; sourceTree = "<group>"; };
+		179CE43D16F8A051005F8ED3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		179CE43F16F8A051005F8ED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		179CE44116F8A051005F8ED3 /* TRW FC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRW FC-Prefix.pch"; sourceTree = "<group>"; };
+		179CE44216F8A051005F8ED3 /* TRWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRWAppDelegate.h; sourceTree = "<group>"; };
+		179CE44316F8A051005F8ED3 /* TRWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRWAppDelegate.m; sourceTree = "<group>"; };
+		179CE44C16F8A051005F8ED3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		179CE46116F8A21E005F8ED3 /* trwfc_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trwfc_57.png; sourceTree = "<group>"; };
+		179CE46316F8A224005F8ED3 /* trwfc_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trwfc_114.png; sourceTree = "<group>"; };
+		17EE34FA1700ADA1001F37A9 /* TRWTablesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWTablesViewController.h; sourceTree = "<group>"; };
+		17EE34FB1700ADA1001F37A9 /* TRWTablesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWTablesViewController.m; sourceTree = "<group>"; };
+		17EE34FD1700AE0D001F37A9 /* TRWPlayerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWPlayerTableViewController.h; sourceTree = "<group>"; };
+		17EE34FE1700AE0D001F37A9 /* TRWPlayerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWPlayerTableViewController.m; sourceTree = "<group>"; };
+		17EE35001700AE3D001F37A9 /* TRWSocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWSocialViewController.h; sourceTree = "<group>"; };
+		17EE35011700AE3D001F37A9 /* TRWSocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWSocialViewController.m; sourceTree = "<group>"; };
+		17EE35031700AE59001F37A9 /* TRWAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWAboutViewController.h; sourceTree = "<group>"; };
+		17EE35041700AE59001F37A9 /* TRWAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWAboutViewController.m; sourceTree = "<group>"; };
+		17EE35061700AFE0001F37A9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		17EE35081700AFFC001F37A9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		17FACE5C1726CFCD000A85F7 /* menuButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menuButton@2x.png"; path = "TRW FC/menuButton@2x.png"; sourceTree = "<group>"; };
+		17FBA0411722DF81003A2FBC /* TRWNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRWNewsViewController.h; sourceTree = "<group>"; };
+		17FBA0421722DF81003A2FBC /* TRWNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRWNewsViewController.m; sourceTree = "<group>"; };
+		17FBA0451722E0CA003A2FBC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179CE42D16F8A051005F8ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174A3BBB17030BD100D6CB5B /* Social.framework in Frameworks */,
+				17EE35091700AFFC001F37A9 /* Accounts.framework in Frameworks */,
+				17EE35071700AFE0001F37A9 /* Twitter.framework in Frameworks */,
+				179CE43416F8A051005F8ED3 /* UIKit.framework in Frameworks */,
+				179CE43616F8A051005F8ED3 /* Foundation.framework in Frameworks */,
+				179CE43816F8A051005F8ED3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179CE42716F8A051005F8ED3 = {
+			isa = PBXGroup;
+			children = (
+				179CE43916F8A051005F8ED3 /* TRW FC */,
+				179CE43216F8A051005F8ED3 /* Frameworks */,
+				179CE43116F8A051005F8ED3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		179CE43116F8A051005F8ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179CE43016F8A051005F8ED3 /* TRW FC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179CE43216F8A051005F8ED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				174A3BBA17030BD100D6CB5B /* Social.framework */,
+				17EE35081700AFFC001F37A9 /* Accounts.framework */,
+				17EE35061700AFE0001F37A9 /* Twitter.framework */,
+				179CE43316F8A051005F8ED3 /* UIKit.framework */,
+				179CE43516F8A051005F8ED3 /* Foundation.framework */,
+				179CE43716F8A051005F8ED3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		179CE43916F8A051005F8ED3 /* TRW FC */ = {
+			isa = PBXGroup;
+			children = (
+				173BF60818C0474000DE02D7 /* ECSlidingViewController.m */,
+				173BF60718C0473600DE02D7 /* ECSlidingViewController.h */,
+				17FBA0411722DF81003A2FBC /* TRWNewsViewController.h */,
+				17FBA0421722DF81003A2FBC /* TRWNewsViewController.m */,
+				17EE34FA1700ADA1001F37A9 /* TRWTablesViewController.h */,
+				17EE34FB1700ADA1001F37A9 /* TRWTablesViewController.m */,
+				17EE34FD1700AE0D001F37A9 /* TRWPlayerTableViewController.h */,
+				17EE34FE1700AE0D001F37A9 /* TRWPlayerTableViewController.m */,
+				17EE35001700AE3D001F37A9 /* TRWSocialViewController.h */,
+				17EE35011700AE3D001F37A9 /* TRWSocialViewController.m */,
+				17EE35031700AE59001F37A9 /* TRWAboutViewController.h */,
+				17EE35041700AE59001F37A9 /* TRWAboutViewController.m */,
+				179CE44216F8A051005F8ED3 /* TRWAppDelegate.h */,
+				179CE44316F8A051005F8ED3 /* TRWAppDelegate.m */,
+				179CE44B16F8A051005F8ED3 /* MainStoryboard.storyboard */,
+				179CE43A16F8A051005F8ED3 /* Supporting Files */,
+			);
+			path = "TRW FC";
+			sourceTree = "<group>";
+		};
+		179CE43A16F8A051005F8ED3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				179CE46516F8A268005F8ED3 /* Images */,
+				179CE43B16F8A051005F8ED3 /* TRW FC-Info.plist */,
+				179CE43C16F8A051005F8ED3 /* InfoPlist.strings */,
+				179CE43F16F8A051005F8ED3 /* main.m */,
+				179CE44116F8A051005F8ED3 /* TRW FC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		179CE46516F8A268005F8ED3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				173BF60C18C04C2400DE02D7 /* whistle.png */,
+				173BF60A18C04A8000DE02D7 /* soccer.png */,
+				17FACE5C1726CFCD000A85F7 /* menuButton@2x.png */,
+				17FBA0451722E0CA003A2FBC /* Default-568h@2x.png */,
+				1796827916FB53EB000595E0 /* Default@2x.png */,
+				1796827716FB53E0000595E0 /* Default.png */,
+				1796826F16FB4F76000595E0 /* ticket.png */,
+				1796826D16FB4F6B000595E0 /* trophy.png */,
+				1796826B16FB4F5B000595E0 /* twitter.png */,
+				179CE46316F8A224005F8ED3 /* trwfc_114.png */,
+				179CE46116F8A21E005F8ED3 /* trwfc_57.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179CE42F16F8A051005F8ED3 /* TRW FC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179CE45E16F8A052005F8ED3 /* Build configuration list for PBXNativeTarget "TRW FC" */;
+			buildPhases = (
+				179CE42C16F8A051005F8ED3 /* Sources */,
+				179CE42D16F8A051005F8ED3 /* Frameworks */,
+				179CE42E16F8A051005F8ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TRW FC";
+			productName = "TRW FC";
+			productReference = 179CE43016F8A051005F8ED3 /* TRW FC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179CE42816F8A051005F8ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TRW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mohd Hafidzi Mat Yasin";
+			};
+			buildConfigurationList = 179CE42B16F8A051005F8ED3 /* Build configuration list for PBXProject "TRW FC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 179CE42716F8A051005F8ED3;
+			productRefGroup = 179CE43116F8A051005F8ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179CE42F16F8A051005F8ED3 /* TRW FC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		179CE42E16F8A051005F8ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173BF60B18C04A8000DE02D7 /* soccer.png in Resources */,
+				179CE43E16F8A051005F8ED3 /* InfoPlist.strings in Resources */,
+				179CE44D16F8A051005F8ED3 /* MainStoryboard.storyboard in Resources */,
+				179CE46216F8A21E005F8ED3 /* trwfc_57.png in Resources */,
+				179CE46416F8A224005F8ED3 /* trwfc_114.png in Resources */,
+				1796826C16FB4F5B000595E0 /* twitter.png in Resources */,
+				1796826E16FB4F6B000595E0 /* trophy.png in Resources */,
+				1796827016FB4F76000595E0 /* ticket.png in Resources */,
+				173BF60D18C04C2400DE02D7 /* whistle.png in Resources */,
+				17FBA03F1722DF20003A2FBC /* Default.png in Resources */,
+				17FBA0441722E0BF003A2FBC /* Default@2x.png in Resources */,
+				17FBA0461722E0CA003A2FBC /* Default-568h@2x.png in Resources */,
+				17FACE5D1726CFCD000A85F7 /* menuButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179CE42C16F8A051005F8ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179CE44016F8A051005F8ED3 /* main.m in Sources */,
+				179CE44416F8A051005F8ED3 /* TRWAppDelegate.m in Sources */,
+				17EE34FC1700ADA1001F37A9 /* TRWTablesViewController.m in Sources */,
+				17EE34FF1700AE0D001F37A9 /* TRWPlayerTableViewController.m in Sources */,
+				17EE35021700AE3D001F37A9 /* TRWSocialViewController.m in Sources */,
+				173BF60918C0474000DE02D7 /* ECSlidingViewController.m in Sources */,
+				17EE35051700AE59001F37A9 /* TRWAboutViewController.m in Sources */,
+				17FBA0431722DF81003A2FBC /* TRWNewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		179CE43C16F8A051005F8ED3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179CE43D16F8A051005F8ED3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		179CE44B16F8A051005F8ED3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179CE44C16F8A051005F8ED3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		179CE45C16F8A052005F8ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		179CE45D16F8A052005F8ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		179CE45F16F8A052005F8ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRW FC/TRW FC-Prefix.pch";
+				INFOPLIST_FILE = "TRW FC/TRW FC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		179CE46016F8A052005F8ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRW FC/TRW FC-Prefix.pch";
+				INFOPLIST_FILE = "TRW FC/TRW FC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179CE42B16F8A051005F8ED3 /* Build configuration list for PBXProject "TRW FC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179CE45C16F8A052005F8ED3 /* Debug */,
+				179CE45D16F8A052005F8ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179CE45E16F8A052005F8ED3 /* Build configuration list for PBXNativeTarget "TRW FC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179CE45F16F8A052005F8ED3 /* Debug */,
+				179CE46016F8A052005F8ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179CE42816F8A051005F8ED3 /* Project object */;
+}
